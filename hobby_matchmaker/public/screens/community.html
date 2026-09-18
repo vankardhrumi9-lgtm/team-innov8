@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"surface-container-lowest":"#ffffff","tertiary-container":"#aa3b00","surface-container-low":"#f2f3ff","outline-variant":"#c7c4d8","background":"#faf8ff","secondary-container":"#5bb8fe","on-error":"#ffffff","surface-container-high":"#e2e7ff","error":"#ba1a1a","primary-fixed":"#e2dfff","surface-dim":"#d2d9f4","inverse-primary":"#c3c0ff","on-tertiary":"#ffffff","on-tertiary-container":"#ffd1c1","on-tertiary-fixed-variant":"#7f2b00","surface-bright":"#faf8ff","surface-variant":"#dae2fd","surface-container":"#eaedff","on-primary-fixed":"#0f0069","error-container":"#ffdad6","inverse-surface":"#283044","on-secondary":"#ffffff","tertiary-fixed":"#ffdbce","on-secondary-fixed-variant":"#004b73","on-surface":"#131b2e","surface":"#faf8ff","on-secondary-container":"#00476e","on-background":"#131b2e","secondary-fixed-dim":"#93ccff","on-primary-fixed-variant":"#3323cc","inverse-on-surface":"#eef0ff","on-primary-container":"#dad7ff","on-surface-variant":"#464555","secondary-fixed":"#cce5ff","secondary":"#006398","primary-fixed-dim":"#c3c0ff","surface-container-highest":"#dae2fd","on-primary":"#ffffff","surface-tint":"#4d44e3","on-secondary-fixed":"#001d31","tertiary-fixed-dim":"#ffb599","primary-container":"#4f46e5","tertiary":"#822c00","primary":"#3525cd","on-error-container":"#93000a","outline":"#777587","on-tertiary-fixed":"#370e00"},borderRadius:{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},spacing:{"space-xs":"0.25rem","space-md":"1rem","gutter":"1.5rem","margin-mobile":"1rem","gutter-mobile":"1rem","space-sm":"0.5rem","space-lg":"1.5rem","space-xl":"2.5rem","margin":"2rem"},fontFamily:{"headline-md":["Plus Jakarta Sans"],"label-match-score":["Inter"],"display-hero":["Plus Jakarta Sans"],"headline-lg-mobile":["Plus Jakarta Sans"],"code-affinity":["Inter"],"body-md":["Plus Jakarta Sans"],"headline-sm":["Plus Jakarta Sans"],"display-hero-mobile":["Plus Jakarta Sans"],"label-action":["Plus Jakarta Sans"],"headline-lg":["Plus Jakarta Sans"],"body-sm":["Plus Jakarta Sans"],"title-md":["Plus Jakarta Sans"],"body-lg":["Plus Jakarta Sans"],"label-tag":["Inter"]},fontSize:{"headline-md":["1.5rem",{"lineHeight":"2rem","letterSpacing":"-0.015em","fontWeight":"700"}],"label-match-score":["0.875rem",{"lineHeight":"1rem","letterSpacing":"0.02em","fontWeight":"700"}],"display-hero":["3.5rem",{"lineHeight":"4.25rem","letterSpacing":"-0.03em","fontWeight":"800"}],"headline-lg-mobile":["1.75rem",{"lineHeight":"2.25rem","letterSpacing":"-0.02em","fontWeight":"700"}],"code-affinity":["0.75rem",{"lineHeight":"1rem","fontWeight":"500"}],"body-md":["1rem",{"lineHeight":"1.5rem","fontWeight":"400"}],"headline-sm":["1.25rem",{"lineHeight":"1.75rem","letterSpacing":"-0.01em","fontWeight":"600"}],"display-hero-mobile":["2.25rem",{"lineHeight":"2.75rem","letterSpacing":"-0.025em","fontWeight":"800"}],"label-action":["0.875rem",{"lineHeight":"1.25rem","letterSpacing":"0.01em","fontWeight":"600"}],"headline-lg":["2.25rem",{"lineHeight":"2.75rem","letterSpacing":"-0.02em","fontWeight":"700"}],"body-sm":["0.875rem",{"lineHeight":"1.25rem","fontWeight":"400"}],"title-md":["1.125rem",{"lineHeight":"1.5rem","letterSpacing":"-0.005em","fontWeight":"600"}],"body-lg":["1.125rem",{"lineHeight":"1.75rem","fontWeight":"400"}],"label-tag":["0.75rem",{"lineHeight":"1rem","letterSpacing":"0.03em","fontWeight":"600"}]}}}};</script></head><body class="bg-background font-body-md text-on-surface min-h-screen antialiased selection:bg-primary-fixed selection:text-on-primary-fixed"><header class="fixed top-0 left-0 right-0 z-50 bg-surface-container-lowest/95 backdrop-blur-md shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-20 max-w-[1200px] mx-auto px-margin flex items-center justify-between gap-gutter"><div class="flex items-center gap-space-lg flex-shrink-0"><a class="flex items-center gap-space-sm" data-path="discover" href="#"><img alt="Aatmoday Hobby Matchmaker Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1XH6ZZxc4HFR5lBvh7aHbAKGAcc-sk9tix8dQwq4YCORUhRY0y7gb8XOwYblmDjBPFGoktod30jPwtZr4udIL70SlYmbyUYfvxmT0Pkmi6ZGqOU6L7PLqDvK4lvxts0y8vZx20eKzzDFMlcC5aUT7Qbk5Kqvt0tD4NffuqmVRkLRWMfKhLWwzs02xhYCMmyhPISBY044aYgYTFpFAtSjuqmW_wzvQHuQdGCQBYh-_rwf7qpgTqe4Qep_A"/><div class="flex flex-col"><span class="font-headline-sm text-headline-sm text-on-surface leading-none tracking-tight">Aatmoday</span><span class="font-label-tag text-label-tag text-primary font-semibold tracking-wider uppercase mt-0.5">Hobby Match</span></div></a><nav class="hidden xl:flex items-center gap-space-xs" data-active-classes="bg-surface-container text-primary font-title-md"><a class="px-3 py-2 rounded-xl text-on-surface-variant hover:text-on-surface transition-colors font-label-action text-label-action" data-path="discover" href="#">Discover</a><a aria-current="page" class="px-3 py-2 rounded-xl transition-colors bg-surface-container text-primary font-title-md" data-path="communities" href="#">Communities</a><a class="px-3 py-2 rounded-xl text-on-surface-variant hover:text-on-surface transition-colors font-label-action text-label-action" data-path="events" href="#">Events</a><a class="px-3 py-2 rounded-xl text-on-surface-variant hover:text-on-surface transition-colors font-label-action text-label-action relative flex items-center gap-1.5" data-path="my-matches" href="#"><span>My Matches</span><span class="px-1.5 py-0.5 rounded-full bg-secondary-container text-on-secondary-container font-label-tag text-[0.6875rem] font-bold tracking-tight uppercase shadow-sm">New</span></a><a class="px-3 py-2 rounded-xl text-on-surface-variant hover:text-on-surface transition-colors font-label-action text-label-action" data-path="organizers" href="#">Organizers</a></nav></div><div class="flex items-center gap-space-md"><button class="inline-flex items-center gap-2 px-3.5 py-2 rounded-xl bg-primary text-on-primary font-label-action text-label-action shadow-[0_4px_14px_rgba(79,70,229,0.25)] hover:bg-surface-tint transition-all active:scale-[0.98]" type="button"><span class="material-symbols-outlined text-[1.125rem]">auto_awesome</span><span class="hidden sm:inline">Quick Match</span></button><button aria-label="Search" class="w-10 h-10 rounded-full flex items-center justify-center text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors" type="button"><span class="material-symbols-outlined text-[1.25rem]">search</span></button><button aria-label="Notifications" class="relative w-10 h-10 rounded-full flex items-center justify-center text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors" type="button"><span class="material-symbols-outlined text-[1.25rem]">notifications</span><span class="absolute top-2 right-2 w-2 h-2 rounded-full bg-error ring-2 ring-surface-container-lowest"></span></button><div class="flex items-center gap-space-sm pl-2"><img alt="Profile" class="w-8 h-8 rounded-full object-cover ring-1 ring-outline-variant" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBxmerWar_319giekTnazBlgoKdDH0-Zjk1nWPXMfPX_0_3SKOwEXj19_2GYHHUwHqA8UmcrH4-i7REZM0lGnRvd7YJfrPkaTZ3B2KrpoCqjQD_HBz7AVNbpPu8sQ03zOXIY_c6zXCrVSD44TS-Ct0hntpvUwuBr4aWM8CSyLeJam-apPTbhAOagPlJrePgP_hm-LJ3X86HOTNciNHLTcCX7YLK6Y22yswrk6Qn2C-82sXDb39BOYuX"/><div class="hidden md:flex flex-col text-left"><span class="font-title-md text-body-sm font-semibold text-on-surface leading-tight">Ananya Sharma</span><div class="flex items-center gap-1"><span class="w-1.5 h-1.5 rounded-full bg-secondary-container"></span><span class="font-code-affinity text-code-affinity text-on-surface-variant leading-none">Student</span></div></div></div></div></div></header><main class="w-full pt-20 bg-background min-h-[calc(100vh-280px)]"><div class="flex flex-col w-full">
+<div class="w-full relative overflow-hidden bg-surface-container">
+<div class="w-full h-72 md:h-96 bg-cover bg-center relative" data-alt="A cinematic overhead and side composition of diverse collegiate creators in a brightly lit modern multimedia production studio, testing high-end mirrorless cameras, vintage prime lenses, softbox studio lights, and editing high-resolution color-graded photography on dual monitors with subtle neon violet and warm amber ambient light." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDPtceQ9r_TNKTO2y2_bPYoPszqavb9mpiS8Hx1-2rs6SDzSdpJf7gSBbjUWd45xtLsjPe8KmBb15ZR_m3vv4Li7Q0dTet-8To71mDwyBVh6jPre6AW3YXv7LzTx_AoV6cIF-W-iHmL2IImEHtPM0hAk0KZKQoSbvYx4GWkTGB1dXo5wJxoyqliDVkjqvjMa3NvYnpBdKqD2FTs0vL-DSQC_rjNipHdgz27VRzqsHlTiIQGR6zAsNJQ')">
+<div class="absolute inset-0 bg-gradient-to-t from-surface via-surface/40 to-transparent"></div>
+<div class="absolute top-6 right-6 flex items-center gap-space-sm">
+<span class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-surface-container-lowest/90 backdrop-blur-md shadow-sm text-primary font-label-tag text-label-tag">
+<span class="material-symbols-outlined text-sm text-primary">verified</span>
+          Verified Campus Club
+        </span>
+<span class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-surface-container-lowest/90 backdrop-blur-md shadow-sm text-on-surface-variant font-label-tag text-label-tag">
+<span class="material-symbols-outlined text-sm text-secondary">domain</span>
+          Official Guild #204
+        </span>
+</div>
+</div>
+<div class="max-w-[1200px] mx-auto px-margin w-full">
+<div class="relative -mt-20 md:-mt-24 pb-space-lg flex flex-col md:flex-row items-start md:items-end justify-between gap-space-lg">
+<div class="flex flex-col md:flex-row items-start md:items-end gap-space-lg">
+<div class="w-28 h-28 md:w-36 md:h-36 rounded-2xl bg-surface-container-lowest p-2 shadow-xl flex-shrink-0 relative group">
+<div class="w-full h-full rounded-xl bg-gradient-to-br from-primary via-primary-container to-tertiary-container flex items-center justify-center text-on-primary relative overflow-hidden shadow-inner">
+<span class="material-symbols-outlined text-5xl md:text-6xl select-none" style="font-variation-settings: 'FILL' 1;">camera</span>
+<div class="absolute inset-0 bg-gradient-to-tr from-transparent via-surface-container-lowest/15 to-transparent"></div>
+</div>
+<div class="absolute -bottom-2 -right-2 w-7 h-7 rounded-full bg-surface-container-lowest flex items-center justify-center shadow-md text-primary">
+<span class="material-symbols-outlined text-base">auto_awesome</span>
+</div>
+</div>
+<div class="flex flex-col gap-1.5">
+<div class="flex flex-wrap items-center gap-2">
+<span class="font-code-affinity text-code-affinity tracking-wider uppercase text-secondary font-semibold">Arts &amp; Creative Media</span>
+<span class="text-outline-variant">•</span>
+<span class="font-code-affinity text-code-affinity text-on-surface-variant">Est. 2022</span>
+<span class="text-outline-variant">•</span>
+<span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-surface-container-high text-primary font-label-tag text-label-tag">
+<span class="w-1.5 h-1.5 rounded-full bg-primary animate-pulse"></span>
+                94% Match For You
+              </span>
+</div>
+<h1 class="font-headline-lg text-headline-lg text-on-surface tracking-tight">Creative Media Club</h1>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-xl">A student-run production collective for street photographers, indie documentarians, lighting tech enthusiasts, and visual storytellers.</p>
+</div>
+</div>
+<div class="flex items-center gap-space-sm w-full md:w-auto">
+<button class="flex-1 md:flex-initial h-12 px-4 rounded-xl bg-surface-container-lowest text-on-surface shadow-sm hover:bg-surface-container-low transition-all flex items-center justify-center gap-2 font-label-action text-label-action" id="bookmarkBtn" type="button">
+<span class="material-symbols-outlined text-xl text-on-surface-variant" id="bookmarkIcon">bookmark_border</span>
+<span id="bookmarkLabel">Bookmark</span>
+</button>
+<button class="flex-[2] md:flex-initial h-12 px-6 rounded-xl bg-primary text-on-primary shadow-lg shadow-primary/25 hover:bg-primary-container transition-all active:scale-[0.98] flex items-center justify-center gap-2 font-label-action text-label-action font-semibold" id="joinCommunityBtn" type="button">
+<span class="material-symbols-outlined text-xl" id="joinIcon">person_add</span>
+<span id="joinLabel">Join Community</span>
+</button>
+</div>
+</div>
+<div class="grid grid-cols-2 sm:grid-cols-4 gap-space-md py-space-md mb-space-lg">
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm flex items-center gap-3">
+<div class="w-10 h-10 rounded-lg bg-surface-container flex items-center justify-center text-primary flex-shrink-0">
+<span class="material-symbols-outlined text-xl">groups</span>
+</div>
+<div class="flex flex-col">
+<span class="font-headline-sm text-headline-sm text-on-surface leading-tight">148</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Active Members</span>
+</div>
+</div>
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm flex items-center gap-3">
+<div class="w-10 h-10 rounded-lg bg-surface-container flex items-center justify-center text-secondary flex-shrink-0">
+<span class="material-symbols-outlined text-xl">event_repeat</span>
+</div>
+<div class="flex flex-col">
+<span class="font-headline-sm text-headline-sm text-on-surface leading-tight">Saturdays</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Weekly at 4:00 PM</span>
+</div>
+</div>
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm flex items-center gap-3">
+<div class="w-10 h-10 rounded-lg bg-surface-container flex items-center justify-center text-tertiary flex-shrink-0">
+<span class="material-symbols-outlined text-xl">pin_drop</span>
+</div>
+<div class="flex flex-col">
+<span class="font-headline-sm text-headline-sm text-on-surface leading-tight truncate">Media Lab</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">&amp; Amphitheatre</span>
+</div>
+</div>
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm flex items-center gap-3">
+<div class="w-10 h-10 rounded-lg bg-surface-container flex items-center justify-center text-primary flex-shrink-0">
+<span class="material-symbols-outlined text-xl">local_activity</span>
+</div>
+<div class="flex flex-col">
+<span class="font-headline-sm text-headline-sm text-on-surface leading-tight">Tier 1</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Full Lab Gear Access</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="max-w-[1200px] mx-auto px-margin py-space-xl w-full grid grid-cols-1 lg:grid-cols-12 gap-gutter">
+<div class="lg:col-span-8 flex flex-col gap-space-xl">
+<div class="bg-gradient-to-br from-surface-container-lowest via-surface-container-low to-surface-container rounded-2xl p-space-lg shadow-sm relative overflow-hidden">
+<div class="absolute -right-8 -top-8 w-44 h-44 rounded-full bg-primary-fixed/30 blur-2xl pointer-events-none"></div>
+<div class="flex items-center justify-between gap-space-sm mb-space-lg relative">
+<div class="flex items-center gap-space-sm">
+<div class="w-8 h-8 rounded-lg bg-primary/10 flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-lg">auto_awesome</span>
+</div>
+<div>
+<span class="font-code-affinity text-code-affinity uppercase tracking-wider text-primary font-bold">Aatmoday AI Persona Match</span>
+<h2 class="font-headline-sm text-headline-sm text-on-surface">Why You May Enjoy This Community</h2>
+</div>
+</div>
+<span class="font-label-match-score text-label-match-score text-on-secondary-container bg-secondary-fixed px-3 py-1 rounded-full shadow-sm">
+            94% Compatibility
+          </span>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-space-md relative">
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm flex flex-col justify-between gap-space-sm hover:-translate-y-0.5 transition-transform">
+<div class="flex flex-col gap-2">
+<div class="w-8 h-8 rounded-full bg-primary-fixed flex items-center justify-center text-on-primary-fixed">
+<span class="material-symbols-outlined text-base">photo_camera</span>
+</div>
+<h3 class="font-title-md text-title-md text-on-surface">Your Photography Passion</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Directly complements your love for street and portrait photography with dedicated studio hours and professional lighting gear access.</p>
+</div>
+<div class="pt-2 flex items-center gap-1.5 text-primary font-code-affinity text-code-affinity">
+<span class="material-symbols-outlined text-xs">tune</span>
+<span>Matched: Street / Portrait</span>
+</div>
+</div>
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm flex flex-col justify-between gap-space-sm hover:-translate-y-0.5 transition-transform">
+<div class="flex flex-col gap-2">
+<div class="w-8 h-8 rounded-full bg-secondary-fixed flex items-center justify-center text-on-secondary-fixed">
+<span class="material-symbols-outlined text-base">movie</span>
+</div>
+<h3 class="font-title-md text-title-md text-on-surface">Video Creation Synergies</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">They produce the official campus YouTube documentary series, giving you real opportunities to direct, film, and edit travel shorts.</p>
+</div>
+<div class="pt-2 flex items-center gap-1.5 text-secondary font-code-affinity text-code-affinity">
+<span class="material-symbols-outlined text-xs">movie_edit</span>
+<span>Matched: Video Editing</span>
+</div>
+</div>
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm flex flex-col justify-between gap-space-sm hover:-translate-y-0.5 transition-transform">
+<div class="flex flex-col gap-2">
+<div class="w-8 h-8 rounded-full bg-tertiary-fixed flex items-center justify-center text-on-tertiary-fixed">
+<span class="material-symbols-outlined text-base">sentiment_satisfied</span>
+</div>
+<h3 class="font-title-md text-title-md text-on-surface">Welcoming Peer Network</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">82% of current members joined as beginners or self-taught creators looking to meet kind, like-minded creative friends.</p>
+</div>
+<div class="pt-2 flex items-center gap-1.5 text-tertiary font-code-affinity text-code-affinity">
+<span class="material-symbols-outlined text-xs">diversity_3</span>
+<span>Low Ego • High Support</span>
+</div>
+</div>
+</div>
+<div class="mt-space-md p-3 rounded-xl bg-surface-container flex items-center justify-between text-on-surface-variant text-body-sm">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-sm">lightbulb</span>
+<span>Synthesized against Ananya's published hobby tags, free Saturday schedule, and collegiate creative portfolio.</span>
+</div>
+<button class="text-primary font-label-tag text-label-tag hover:underline flex-shrink-0" type="button">View Affinity Breakdown</button>
+</div>
+</div>
+<div class="flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<div class="flex flex-col">
+<span class="font-code-affinity text-code-affinity uppercase tracking-wider text-secondary font-bold">What We Do</span>
+<h2 class="font-headline-md text-headline-md text-on-surface">Activities &amp; Portfolio Showcase</h2>
+</div>
+<a class="text-primary font-label-action text-label-action hover:underline flex items-center gap-1" data-path="events" href="#">
+            Browse All Sessions <span class="material-symbols-outlined text-sm">arrow_forward</span>
+</a>
+</div>
+<div class="grid grid-cols-2 sm:grid-cols-4 gap-space-sm">
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm flex flex-col gap-2">
+<div class="w-10 h-10 rounded-lg bg-surface-container flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-xl">directions_walk</span>
+</div>
+<span class="font-title-md text-title-md text-on-surface leading-tight">Campus Photo Walks</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Bi-weekly thematic golden-hour expeditions across hidden architectural corners.</span>
+</div>
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm flex flex-col gap-2">
+<div class="w-10 h-10 rounded-lg bg-surface-container flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined text-xl">timer</span>
+</div>
+<span class="font-title-md text-title-md text-on-surface leading-tight">Video Hackathons</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">48-hour short film sprints with shared prompts, actors, and mentor feedback.</span>
+</div>
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm flex flex-col gap-2">
+<div class="w-10 h-10 rounded-lg bg-surface-container flex items-center justify-center text-tertiary">
+<span class="material-symbols-outlined text-xl">wb_incandescent</span>
+</div>
+<span class="font-title-md text-title-md text-on-surface leading-tight">Lighting Workshops</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Hands-on three-point studio lighting, gel diffusion, and flash sync clinics.</span>
+</div>
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm flex flex-col gap-2">
+<div class="w-10 h-10 rounded-lg bg-surface-container flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-xl">palette</span>
+</div>
+<span class="font-title-md text-title-md text-on-surface leading-tight">Annual Photo Gallery</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Physical print exhibitions in the Central Library atrium with guest curators.</span>
+</div>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-md pt-2">
+<div class="relative rounded-2xl overflow-hidden shadow-sm h-52 group">
+<div class="w-full h-full bg-cover bg-center transition-transform duration-500 group-hover:scale-105" data-alt="A candid photo of student photographers adjusting tripods and manual camera settings on a university campus quad lawn at sunset with warm amber lighting and deep indigo evening sky." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDlYjse-r0pASXFlR6741n1n-QdwehVishZFjzK6uWlccqcn6yWqLtj31QoY2e2xCSFiPWTTNQL0mJMay1BpUQo_HVZZMIllsKOvf3IXiAJARIaIB89MXGGNR1qC8Q5A-9obMOlQoAkvpTxJUTVXhPEXCf2XMdLwLLOlcXMKlG3mCzZFaY2owYWl2kP0etdj4-ePDk_Hb0ZodC4ZdNmQ-Aqi2r5N48NKvqQo8QPqMLgUIn_tMdXJdka')"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-inverse-surface/90 via-inverse-surface/30 to-transparent p-space-md flex flex-col justify-end text-inverse-on-surface">
+<span class="font-label-tag text-label-tag uppercase tracking-wider text-secondary-container font-semibold">Latest Exhibition</span>
+<h3 class="font-headline-sm text-headline-sm text-surface-container-lowest">Echoes of Campus: Monsoon Edition</h3>
+<p class="font-body-sm text-body-sm text-surface-dim line-clamp-1">32 student photo prints curated in student union hall.</p>
+</div>
+</div>
+<div class="relative rounded-2xl overflow-hidden shadow-sm h-52 group">
+<div class="w-full h-full bg-cover bg-center transition-transform duration-500 group-hover:scale-105" data-alt="Close up of a collegiate female filmmaker holding a gimbal stabilizer rig with a mirrorless camera mounted, smiling with creative focus in a studio workshop setting." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCiRMpKqsjckko38xxbGrbBCcnf3V0pCC3kzGFuliwXxVV4VUtTTyKK5_acSmEvQ8V1YA0JKMLjCOjXDpvLyuCjn42zmPC5OhUdUPF3QO3eoQ_WRd5_qlduvGhtTyQFI7PLGV0sEG8TOShLw5SDzbWVRHHLIYQ2JKEue-UAUkqdx1vqEgK76X4Nrjx7edJwPMBaofIgMiOCinn5VRM6uBSmhArslACXV05H-ndi5dgXnAkgQ5kRQuxr')"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-inverse-surface/90 via-inverse-surface/30 to-transparent p-space-md flex flex-col justify-end text-inverse-on-surface">
+<span class="font-label-tag text-label-tag uppercase tracking-wider text-tertiary-fixed font-semibold">Mini Documentary</span>
+<h3 class="font-headline-sm text-headline-sm text-surface-container-lowest">Voices of Old Campus Library</h3>
+<p class="font-body-sm text-body-sm text-surface-dim line-clamp-1">Winner of State Student Film Showcase 2024.</p>
+</div>
+</div>
+</div>
+<div class="flex flex-wrap items-center gap-2 pt-2">
+<span class="font-label-tag text-label-tag text-on-surface-variant pr-2">Core Club Domains:</span>
+<span class="px-3 py-1 rounded-full bg-surface-container text-on-surface font-label-tag text-label-tag font-medium hover:bg-surface-container-high cursor-pointer transition-colors">#Photography</span>
+<span class="px-3 py-1 rounded-full bg-surface-container text-on-surface font-label-tag text-label-tag font-medium hover:bg-surface-container-high cursor-pointer transition-colors">#VideoEditing</span>
+<span class="px-3 py-1 rounded-full bg-surface-container text-on-surface font-label-tag text-label-tag font-medium hover:bg-surface-container-high cursor-pointer transition-colors">#Cinematography</span>
+<span class="px-3 py-1 rounded-full bg-surface-container text-on-surface font-label-tag text-label-tag font-medium hover:bg-surface-container-high cursor-pointer transition-colors">#Storytelling</span>
+<span class="px-3 py-1 rounded-full bg-surface-container text-on-surface font-label-tag text-label-tag font-medium hover:bg-surface-container-high cursor-pointer transition-colors">#SonyAlpha</span>
+<span class="px-3 py-1 rounded-full bg-surface-container text-on-surface font-label-tag text-label-tag font-medium hover:bg-surface-container-high cursor-pointer transition-colors">#Lightroom</span>
+<span class="px-3 py-1 rounded-full bg-surface-container text-on-surface font-label-tag text-label-tag font-medium hover:bg-surface-container-high cursor-pointer transition-colors">#ColorGrading</span>
+</div>
+</div>
+<div class="flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<div class="flex flex-col">
+<span class="font-code-affinity text-code-affinity uppercase tracking-wider text-primary font-bold">Scheduled Gatherings</span>
+<h2 class="font-headline-md text-headline-md text-on-surface">Upcoming Featured Event</h2>
+</div>
+<span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-secondary-container/20 text-secondary font-label-tag text-label-tag font-semibold">
+<span class="w-2 h-2 rounded-full bg-secondary"></span>
+            Spots Filling Fast
+          </span>
+</div>
+<div class="bg-surface-container-lowest rounded-2xl p-space-lg shadow-sm hover:shadow-md transition-all flex flex-col gap-space-md">
+<div class="flex flex-col md:flex-row items-start justify-between gap-space-md">
+<div class="flex flex-col gap-2">
+<div class="flex items-center gap-2 text-primary font-code-affinity text-code-affinity font-semibold">
+<span class="material-symbols-outlined text-base">calendar_today</span>
+<span>Saturday, Oct 28 • 4:00 PM - 6:30 PM IST</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Golden Hour Campus Photowalk &amp; Lens Swap</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">Bring your camera or smartphone. We will test prime lenses (Sony E-mount, Canon RF, and Fujifilm X), experiment with low-angle reflections along the quad water mirror, and share lightroom presets afterward over tea.</p>
+</div>
+<div class="w-full md:w-auto flex-shrink-0 flex md:flex-col items-center md:items-end justify-between gap-2 p-3 rounded-xl bg-surface-container">
+<div class="text-left md:text-right">
+<span class="font-label-tag text-label-tag text-on-surface-variant block">Capacity</span>
+<span class="font-title-md text-title-md text-on-surface font-bold">28 / 35 Registered</span>
+</div>
+<div class="w-24 bg-surface-container-highest rounded-full h-2 overflow-hidden">
+<div class="bg-primary h-full rounded-full" style="width: 80%;"></div>
+</div>
+</div>
+</div>
+<div class="p-space-md rounded-xl bg-gradient-to-r from-surface-container-high/60 to-surface-container flex flex-col sm:flex-row items-start sm:items-center justify-between gap-space-sm">
+<div class="flex items-start gap-2.5">
+<span class="material-symbols-outlined text-primary text-xl flex-shrink-0 mt-0.5">psychology</span>
+<div class="flex flex-col">
+<span class="font-code-affinity text-code-affinity uppercase tracking-wider text-primary font-bold">AI Recommendation Reason</span>
+<span class="font-body-sm text-body-sm text-on-surface">Recommended because it focuses on landscape &amp; portrait techniques you specifically flagged in your onboarding goals.</span>
+</div>
+</div>
+<span class="font-label-match-score text-label-match-score text-primary font-bold whitespace-nowrap">98% Event Fit</span>
+</div>
+<div class="flex flex-col sm:flex-row items-center justify-between gap-space-md pt-2">
+<div class="flex items-center gap-space-md w-full sm:w-auto">
+<div class="flex items-center gap-2">
+<div class="w-9 h-9 rounded-full bg-surface-container flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-lg">location_on</span>
+</div>
+<div class="flex flex-col">
+<span class="font-code-affinity text-code-affinity text-on-surface-variant">Location</span>
+<span class="font-title-md text-body-sm font-semibold text-on-surface">North Campus Quad &amp; Lakefront</span>
+</div>
+</div>
+<div class="flex items-center gap-2 pl-4">
+<img alt="Kabir Sen" class="w-9 h-9 rounded-full object-cover shadow-sm" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDFx0_8wE0jVq_K4eB9P3T7c0u1zW_Y2xT9zK3_7aN3uYf_lP0s9O1K2d8Y0q9v4bK3T4q2J"/>
+<div class="flex flex-col">
+<span class="font-code-affinity text-code-affinity text-on-surface-variant">Lead Organizer</span>
+<span class="font-title-md text-body-sm font-semibold text-on-surface">Kabir Sen (3rd Yr)</span>
+</div>
+</div>
+</div>
+<div class="flex items-center gap-space-sm w-full sm:w-auto justify-end">
+<button aria-label="Share Event" class="w-11 h-11 rounded-xl bg-surface-container flex items-center justify-center text-on-surface hover:bg-surface-container-high transition-colors" id="eventShareBtn" type="button">
+<span class="material-symbols-outlined text-lg">share</span>
+</button>
+<button class="w-full sm:w-auto px-6 h-11 rounded-xl bg-primary text-on-primary font-label-action text-label-action shadow-md hover:bg-primary-container transition-all flex items-center justify-center gap-2" id="eventRegisterBtn" type="button">
+<span class="material-symbols-outlined text-lg" id="registerIcon">how_to_reg</span>
+<span id="registerLabel">Register for Event</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="lg:col-span-4 flex flex-col gap-space-lg">
+<div class="bg-surface-container-lowest rounded-2xl p-space-lg shadow-sm flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<div class="flex flex-col">
+<span class="font-code-affinity text-code-affinity uppercase tracking-wider text-tertiary font-bold">Direct Connection</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Meet the President</h3>
+</div>
+<span class="px-2 py-0.5 rounded-full bg-surface-container text-primary font-code-affinity text-code-affinity">Active Today</span>
+</div>
+<div class="flex items-center gap-3 p-3 rounded-xl bg-surface-container-low">
+<img alt="Kabir Sen" class="w-14 h-14 rounded-xl object-cover shadow-sm" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDFx0_8wE0jVq_K4eB9P3T7c0u1zW_Y2xT9zK3_7aN3uYf_lP0s9O1K2d8Y0q9v4bK3T4q2J"/>
+<div class="flex flex-col min-w-0">
+<div class="flex items-center gap-1.5">
+<span class="font-title-md text-title-md text-on-surface font-bold truncate">Kabir Sen</span>
+<span class="material-symbols-outlined text-primary text-sm" title="SSO Verified Lead">verified</span>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant truncate">B.Des Communication Design '25</span>
+<span class="font-code-affinity text-code-affinity text-secondary">Documentary Director &amp; Drone Pilot</span>
+</div>
+</div>
+<div class="flex flex-col gap-2">
+<div class="flex items-center justify-between">
+<span class="font-label-tag text-label-tag text-on-surface-variant font-semibold">AI Icebreaker Generator</span>
+<button class="text-primary font-code-affinity text-code-affinity flex items-center gap-1 hover:underline" id="shuffleIcebreaker" type="button">
+<span class="material-symbols-outlined text-sm">cached</span> Shuffle
+            </button>
+</div>
+<div class="rounded-xl bg-surface-container p-3.5 relative flex flex-col gap-2.5">
+<div class="flex items-center gap-2 text-tertiary">
+<span class="material-symbols-outlined text-sm">chat_bubble</span>
+<span class="font-code-affinity text-code-affinity font-semibold uppercase tracking-wider">Suggested First Ping</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface italic" id="icebreakerText">"Hey Kabir! I saw your recent campus monsoon short—I shoot portraits with a Sony A6400 and would love to collaborate on the upcoming photowalk lenses."</p>
+</div>
+<button class="w-full py-2.5 rounded-xl bg-tertiary text-on-tertiary font-label-action text-label-action shadow-md hover:bg-tertiary-container transition-all flex items-center justify-center gap-2" id="sendPingBtn" type="button">
+<span class="material-symbols-outlined text-base">send</span>
+<span>Send Quick Intro Message</span>
+</button>
+</div>
+</div>
+<div class="bg-surface-container-lowest rounded-2xl p-space-lg shadow-sm flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<div class="flex flex-col">
+<span class="font-code-affinity text-code-affinity uppercase tracking-wider text-secondary font-bold">Community Roster</span>
+<h3 class="font-title-md text-title-md text-on-surface font-bold">Members You May Know</h3>
+</div>
+<span class="font-code-affinity text-code-affinity text-on-surface-variant">148 total</span>
+</div>
+<div class="flex flex-col gap-space-sm">
+<div class="flex items-center justify-between p-2 rounded-xl hover:bg-surface-container-low transition-colors">
+<div class="flex items-center gap-3 min-w-0">
+<img alt="Meera Nair" class="w-10 h-10 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDAp2n3lZ-7fE09Zf-hE27g9p3tU-kZ8u2i_O78N8aT6w5y3x4c1v0b"/>
+<div class="flex flex-col min-w-0">
+<span class="font-title-md text-body-sm font-semibold text-on-surface truncate">Meera Nair</span>
+<span class="font-code-affinity text-code-affinity text-on-surface-variant truncate">CS '26 • Street &amp; Night Sky</span>
+</div>
+</div>
+<span class="px-2 py-0.5 rounded-full bg-secondary-fixed text-on-secondary-fixed font-code-affinity text-code-affinity whitespace-nowrap">91% Fit</span>
+</div>
+<div class="flex items-center justify-between p-2 rounded-xl hover:bg-surface-container-low transition-colors">
+<div class="flex items-center gap-3 min-w-0">
+<img alt="Devansh Rastogi" class="w-10 h-10 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB2189aT6y3x4c1v0b_lZ7fE09ZfhE27g9p3tUkZ8u2iO78N8"/>
+<div class="flex flex-col min-w-0">
+<span class="font-title-md text-body-sm font-semibold text-on-surface truncate">Devansh Rastogi</span>
+<span class="font-code-affinity text-code-affinity text-on-surface-variant truncate">Media Studies '25 • DaVinci Colorist</span>
+</div>
+</div>
+<span class="px-2 py-0.5 rounded-full bg-secondary-fixed text-on-secondary-fixed font-code-affinity text-code-affinity whitespace-nowrap">88% Fit</span>
+</div>
+<div class="flex items-center justify-between p-2 rounded-xl hover:bg-surface-container-low transition-colors">
+<div class="flex items-center gap-3 min-w-0">
+<img alt="Riya Chawla" class="w-10 h-10 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC7g9p3tUkZ8u2iO78N8aT6y3x4c1v0b_lZ7fE09ZfhE2"/>
+<div class="flex flex-col min-w-0">
+<span class="font-title-md text-body-sm font-semibold text-on-surface truncate">Riya Chawla</span>
+<span class="font-code-affinity text-code-affinity text-on-surface-variant truncate">Architecture '24 • Urban Symmetry</span>
+</div>
+</div>
+<span class="px-2 py-0.5 rounded-full bg-secondary-fixed text-on-secondary-fixed font-code-affinity text-code-affinity whitespace-nowrap">85% Fit</span>
+</div>
+</div>
+<div class="flex items-center justify-between pt-2">
+<div class="flex -space-x-2 overflow-hidden">
+<span class="inline-block h-7 w-7 rounded-full bg-primary-fixed text-on-primary-fixed text-xs font-bold flex items-center justify-center ring-2 ring-surface-container-lowest">+12</span>
+<span class="inline-block h-7 w-7 rounded-full bg-secondary-fixed text-on-secondary-fixed text-xs font-bold flex items-center justify-center ring-2 ring-surface-container-lowest">8+</span>
+<span class="inline-block h-7 w-7 rounded-full bg-tertiary-fixed text-on-tertiary-fixed text-xs font-bold flex items-center justify-center ring-2 ring-surface-container-lowest">5+</span>
+</div>
+<a class="text-primary font-label-tag text-label-tag hover:underline font-semibold" data-path="student-directory" href="#">View All 148 Creators</a>
+</div>
+</div>
+<div class="bg-surface-container-lowest rounded-2xl p-space-lg shadow-sm flex flex-col gap-space-sm">
+<span class="font-code-affinity text-code-affinity uppercase tracking-wider text-secondary font-bold">Guild Logistics</span>
+<h4 class="font-title-md text-title-md text-on-surface font-semibold">Equipment Checkout Perks</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Members in good standing can reserve club cameras, prime lenses, and audio gear 48 hours in advance for campus creative assignments.</p>
+<div class="flex flex-col gap-2 pt-2">
+<div class="flex items-center gap-2 font-body-sm text-body-sm text-on-surface">
+<span class="material-symbols-outlined text-primary text-base">check_circle</span>
+<span>Sony FX3 &amp; A7 IV Bodies Available</span>
+</div>
+<div class="flex items-center gap-2 font-body-sm text-body-sm text-on-surface">
+<span class="material-symbols-outlined text-primary text-base">check_circle</span>
+<span>Aputure 300d Studio Lighting Kits</span>
+</div>
+<div class="flex items-center gap-2 font-body-sm text-body-sm text-on-surface">
+<span class="material-symbols-outlined text-primary text-base">check_circle</span>
+<span>Rode Wireless Pro Lapel Mics</span>
+</div>
+</div>
+<div class="pt-space-sm">
+<a class="w-full py-2 rounded-xl bg-surface-container text-on-surface font-label-action text-label-action text-center block hover:bg-surface-container-high transition-colors" data-path="maker-labs" href="#">
+            Check Lab Schedule &amp; Inventory
+          </a>
+</div>
+</div>
+</div>
+</div>
+<div class="fixed bottom-6 right-6 z-50 transform translate-y-24 opacity-0 transition-all duration-300 pointer-events-none" id="toastNotification">
+<div class="bg-inverse-surface text-inverse-on-surface px-4 py-3 rounded-xl shadow-2xl flex items-center gap-3">
+<span class="material-symbols-outlined text-secondary-container" id="toastIcon">check_circle</span>
+<span class="font-body-sm text-body-sm font-medium" id="toastMessage">Action completed successfully!</span>
+</div>
+</div>
+</div>
+<script>
+  (function() {
+    let joined = false;
+    let bookmarked = false;
+    let registered = false;
+
+    const joinBtn = document.getElementById('joinCommunityBtn');
+    const joinLabel = document.getElementById('joinLabel');
+    const joinIcon = document.getElementById('joinIcon');
+
+    const bookmarkBtn = document.getElementById('bookmarkBtn');
+    const bookmarkLabel = document.getElementById('bookmarkLabel');
+    const bookmarkIcon = document.getElementById('bookmarkIcon');
+
+    const registerBtn = document.getElementById('eventRegisterBtn');
+    const registerLabel = document.getElementById('registerLabel');
+    const registerIcon = document.getElementById('registerIcon');
+
+    const sendPingBtn = document.getElementById('sendPingBtn');
+    const shuffleBtn = document.getElementById('shuffleIcebreaker');
+    const icebreakerText = document.getElementById('icebreakerText');
+
+    const toast = document.getElementById('toastNotification');
+    const toastMsg = document.getElementById('toastMessage');
+    const toastIcon = document.getElementById('toastIcon');
+
+    const icebreakers = [
+      `"Hey Kabir! I saw your recent campus monsoon short—I shoot portraits with a Sony A6400 and would love to collaborate on the upcoming photowalk lenses."`,
+      `"Hi Kabir! Quick question: is the upcoming lens swap open to analog 35mm film shooters as well? Super keen to join this Saturday!"`,
+      `"Hello! I am Ananya from Year 2. Really interested in color grading travel footage and would love to help on the next student documentary sprint."`,
+      `"Hey Kabir, excited about Creative Media Club! Do you have any slots open for student lighting assistants for the upcoming studio workshop?"`
+    ];
+    let icebreakerIndex = 0;
+
+    function showToast(msg, icon = 'check_circle') {
+      if (!toast) return;
+      toastMsg.textContent = msg;
+      toastIcon.textContent = icon;
+      toast.classList.remove('translate-y-24', 'opacity-0', 'pointer-events-none');
+      setTimeout(() => {
+        toast.classList.add('translate-y-24', 'opacity-0', 'pointer-events-none');
+      }, 3200);
+    }
+
+    if (joinBtn) {
+      joinBtn.addEventListener('click', () => {
+        joined = !joined;
+        if (joined) {
+          joinLabel.textContent = 'Member ✓';
+          joinIcon.textContent = 'verified';
+          joinBtn.classList.remove('bg-primary', 'text-on-primary');
+          joinBtn.classList.add('bg-surface-container', 'text-primary');
+          showToast('Welcome to Creative Media Club! Discord invite sent.', 'celebration');
+        } else {
+          joinLabel.textContent = 'Join Community';
+          joinIcon.textContent = 'person_add';
+          joinBtn.classList.remove('bg-surface-container', 'text-primary');
+          joinBtn.classList.add('bg-primary', 'text-on-primary');
+          showToast('Left community membership.', 'info');
+        }
+      });
+    }
+
+    if (bookmarkBtn) {
+      bookmarkBtn.addEventListener('click', () => {
+        bookmarked = !bookmarked;
+        if (bookmarked) {
+          bookmarkIcon.textContent = 'bookmark';
+          bookmarkIcon.classList.add('text-primary');
+          bookmarkIcon.classList.remove('text-on-surface-variant');
+          bookmarkLabel.textContent = 'Saved';
+          showToast('Saved to your Bookmarked Communities.', 'bookmark_added');
+        } else {
+          bookmarkIcon.textContent = 'bookmark_border';
+          bookmarkIcon.classList.remove('text-primary');
+          bookmarkIcon.classList.add('text-on-surface-variant');
+          bookmarkLabel.textContent = 'Bookmark';
+          showToast('Removed from saved list.', 'info');
+        }
+      });
+    }
+
+    if (registerBtn) {
+      registerBtn.addEventListener('click', () => {
+        registered = !registered;
+        if (registered) {
+          registerLabel.textContent = 'Registered (Pass Sent)';
+          registerIcon.textContent = 'check_circle';
+          registerBtn.classList.remove('bg-primary', 'text-on-primary');
+          registerBtn.classList.add('bg-secondary', 'text-on-secondary');
+          showToast('Registered! Cal event added: Golden Hour Photowalk.', 'event_available');
+        } else {
+          registerLabel.textContent = 'Register for Event';
+          registerIcon.textContent = 'how_to_reg';
+          registerBtn.classList.remove('bg-secondary', 'text-on-secondary');
+          registerBtn.classList.add('bg-primary', 'text-on-primary');
+          showToast('Event registration cancelled.', 'info');
+        }
+      });
+    }
+
+    if (shuffleBtn && icebreakerText) {
+      shuffleBtn.addEventListener('click', () => {
+        icebreakerIndex = (icebreakerIndex + 1) % icebreakers.length;
+        icebreakerText.textContent = icebreakers[icebreakerIndex];
+      });
+    }
+
+    if (sendPingBtn) {
+      sendPingBtn.addEventListener('click', () => {
+        showToast('Ping sent to Kabir Sen! Responses usually take < 2 hrs.', 'send');
+      });
+    }
+
+    const shareBtn = document.getElementById('eventShareBtn');
+    if (shareBtn) {
+      shareBtn.addEventListener('click', () => {
+        if (navigator.clipboard) {
+          navigator.clipboard.writeText(window.location.href);
+          showToast('Event link copied to clipboard!', 'content_copy');
+        } else {
+          showToast('Sharing link prepared!', 'share');
+        }
+      });
+    }
+  })();
+</script></main><footer class="w-full bg-surface-container-lowest mt-space-xl"><div class="max-w-[1200px] mx-auto px-margin py-space-xl"><div class="grid grid-cols-1 md:grid-cols-4 gap-gutter mb-space-xl"><div class="md:col-span-1 flex flex-col gap-space-sm"><div class="flex items-center gap-space-xs"><span class="font-headline-sm text-headline-sm text-primary tracking-tight">Aatmoday</span></div><p class="font-body-sm text-body-sm text-on-surface-variant max-w-xs">The intelligent campus matchmaker connecting passionate collegiate minds through curated hobbies, maker circles, and collaborative student guilds.</p><div class="mt-2 inline-flex items-center gap-2 px-2.5 py-1 rounded-full bg-surface-container text-on-surface font-code-affinity text-code-affinity w-fit"><span class="material-symbols-outlined text-secondary text-sm">military_tech</span><span>Campus Hackathon Winner '24</span></div></div><div class="flex flex-col gap-space-sm"><span class="font-title-md text-title-md text-on-surface font-semibold">Ecosystem</span><div class="flex flex-col gap-space-xs font-body-sm text-body-sm text-on-surface-variant"><a class="hover:text-primary transition-colors" data-path="discover" href="#">AI Hobby Radar</a><a class="hover:text-primary transition-colors" data-path="communities" href="#">Interest Guilds</a><a class="hover:text-primary transition-colors" data-path="my-matches" href="#">Compatibility Matrix</a><a class="hover:text-primary transition-colors" data-path="student-directory" href="#">Collegiate Network</a></div></div><div class="flex flex-col gap-space-sm"><span class="font-title-md text-title-md text-on-surface font-semibold">Student Clubs</span><div class="flex flex-col gap-space-xs font-body-sm text-body-sm text-on-surface-variant"><a class="hover:text-primary transition-colors" data-path="organizers" href="#">Club Onboarding</a><a class="hover:text-primary transition-colors" data-path="events" href="#">Campus Gatherings</a><a class="hover:text-primary transition-colors" data-path="maker-labs" href="#">Maker Labs</a><a class="hover:text-primary transition-colors" data-path="leadership-council" href="#">Student Council Charter</a></div></div><div class="flex flex-col gap-space-sm"><span class="font-title-md text-title-md text-on-surface font-semibold">Campus Safety &amp; Trust</span><p class="font-body-sm text-body-sm text-on-surface-variant">All student profiles undergo institutional .edu SSO domain validation and community verification.</p><div class="flex items-center gap-space-xs text-primary font-label-tag text-label-tag font-semibold"><span class="material-symbols-outlined text-base">verified_user</span><span>Institutional SSO Verified</span></div></div></div><div class="pt-space-md border-t border-surface-container flex flex-col sm:flex-row items-center justify-between gap-space-sm font-body-sm text-body-sm text-on-surface-variant"><span>© 2025 Aatmoday Ecosystem. Designed for student connectivity.</span><div class="flex items-center gap-space-md font-label-tag text-label-tag"><a class="hover:text-on-surface transition-colors" data-path="privacy-policy" href="#">Privacy Framework</a><a class="hover:text-on-surface transition-colors" data-path="terms-of-service" href="#">Honor Code</a><a class="hover:text-on-surface transition-colors" data-path="community-guidelines" href="#">Community Guidelines</a></div></div></div></footer></body></html>

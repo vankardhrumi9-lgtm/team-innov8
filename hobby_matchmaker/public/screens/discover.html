@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_blank" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"surface-container-lowest":"#ffffff","tertiary-container":"#aa3b00","surface-container-low":"#f2f3ff","outline-variant":"#c7c4d8","background":"#faf8ff","secondary-container":"#5bb8fe","on-error":"#ffffff","surface-container-high":"#e2e7ff","error":"#ba1a1a","primary-fixed":"#e2dfff","surface-dim":"#d2d9f4","inverse-primary":"#c3c0ff","on-tertiary":"#ffffff","on-tertiary-container":"#ffd1c1","on-tertiary-fixed-variant":"#7f2b00","surface-bright":"#faf8ff","surface-variant":"#dae2fd","surface-container":"#eaedff","on-primary-fixed":"#0f0069","error-container":"#ffdad6","inverse-surface":"#283044","on-secondary":"#ffffff","tertiary-fixed":"#ffdbce","on-secondary-fixed-variant":"#004b73","on-surface":"#131b2e","surface":"#faf8ff","on-secondary-container":"#00476e","on-background":"#131b2e","secondary-fixed-dim":"#93ccff","on-primary-fixed-variant":"#3323cc","inverse-on-surface":"#eef0ff","on-primary-container":"#dad7ff","on-surface-variant":"#464555","secondary-fixed":"#cce5ff","secondary":"#006398","primary-fixed-dim":"#c3c0ff","surface-container-highest":"#dae2fd","on-primary":"#ffffff","surface-tint":"#4d44e3","on-secondary-fixed":"#001d31","tertiary-fixed-dim":"#ffb599","primary-container":"#4f46e5","tertiary":"#822c00","primary":"#3525cd","on-error-container":"#93000a","outline":"#777587","on-tertiary-fixed":"#370e00"},borderRadius:{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},spacing:{"space-xs":"0.25rem","space-md":"1rem","gutter":"1.5rem","margin-mobile":"1rem","gutter-mobile":"1rem","space-sm":"0.5rem","space-lg":"1.5rem","space-xl":"2.5rem","margin":"2rem"},fontFamily:{"headline-md":["Plus Jakarta Sans"],"label-match-score":["Inter"],"display-hero":["Plus Jakarta Sans"],"headline-lg-mobile":["Plus Jakarta Sans"],"code-affinity":["Inter"],"body-md":["Plus Jakarta Sans"],"headline-sm":["Plus Jakarta Sans"],"display-hero-mobile":["Plus Jakarta Sans"],"label-action":["Plus Jakarta Sans"],"headline-lg":["Plus Jakarta Sans"],"body-sm":["Plus Jakarta Sans"],"title-md":["Plus Jakarta Sans"],"body-lg":["Plus Jakarta Sans"],"label-tag":["Inter"]},fontSize:{"headline-md":["1.5rem",{"lineHeight":"2rem","letterSpacing":"-0.015em","fontWeight":"700"}],"label-match-score":["0.875rem",{"lineHeight":"1rem","letterSpacing":"0.02em","fontWeight":"700"}],"display-hero":["3.5rem",{"lineHeight":"4.25rem","letterSpacing":"-0.03em","fontWeight":"800"}],"headline-lg-mobile":["1.75rem",{"lineHeight":"2.25rem","letterSpacing":"-0.02em","fontWeight":"700"}],"code-affinity":["0.75rem",{"lineHeight":"1rem","fontWeight":"500"}],"body-md":["1rem",{"lineHeight":"1.5rem","fontWeight":"400"}],"headline-sm":["1.25rem",{"lineHeight":"1.75rem","letterSpacing":"-0.01em","fontWeight":"600"}],"display-hero-mobile":["2.25rem",{"lineHeight":"2.75rem","letterSpacing":"-0.025em","fontWeight":"800"}],"label-action":["0.875rem",{"lineHeight":"1.25rem","letterSpacing":"0.01em","fontWeight":"600"}],"headline-lg":["2.25rem",{"lineHeight":"2.75rem","letterSpacing":"-0.02em","fontWeight":"700"}],"body-sm":["0.875rem",{"lineHeight":"1.25rem","fontWeight":"400"}],"title-md":["1.125rem",{"lineHeight":"1.5rem","letterSpacing":"-0.005em","fontWeight":"600"}],"body-lg":["1.125rem",{"lineHeight":"1.75rem","fontWeight":"400"}],"label-tag":["0.75rem",{"lineHeight":"1rem","letterSpacing":"0.03em","fontWeight":"600"}]}}}};</script></head><body class="bg-background font-body-md text-on-surface min-h-screen antialiased flex flex-col justify-center items-center"><main class="w-full"><div class="flex flex-col w-full">
+<div class="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 lg:py-12">
+<!-- Top Progress & Status Row -->
+<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-8">
+<div class="flex items-center gap-3">
+<div class="flex items-center justify-center w-7 h-7 rounded-full bg-primary text-on-primary font-label-match-score text-label-match-score">
+          1
+        </div>
+<div class="flex flex-col">
+<span class="font-label-tag text-label-tag uppercase tracking-wider text-primary font-semibold">Step 1 of 2</span>
+<span class="font-title-md text-title-md text-on-surface">Express Your Interests</span>
+</div>
+</div>
+<!-- AI Assistant Live Readiness Status Pill -->
+<div class="inline-flex items-center gap-2.5 px-4 py-2 rounded-full bg-surface-container shadow-sm self-start sm:self-auto">
+<span class="relative flex h-2.5 w-2.5">
+<span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-secondary-container opacity-75"></span>
+<span class="relative inline-flex rounded-full h-2.5 w-2.5 bg-primary"></span>
+</span>
+<span class="font-label-action text-label-action text-on-surface-variant flex items-center gap-1">
+<span class="material-symbols-outlined text-primary text-sm" style="font-variation-settings: 'FILL' 1;">auto_awesome</span>
+          AI is ready to understand your interests
+        </span>
+</div>
+</div>
+<!-- Editorial Header Section -->
+<div class="max-w-3xl mb-12">
+<h1 class="font-display-hero text-display-hero text-on-surface mb-3 tracking-tight">
+        What are you into?
+      </h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant leading-relaxed">
+        Select from popular campus passions or type freely below. Our AI understands nuance, hobbies, and nuanced social rhythms to pair you meaningfully.
+      </p>
+</div>
+<!-- Main Interactive Split Grid -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-start">
+<!-- Left Column: Inputs, Chips & Tuners (7 Columns) -->
+<div class="lg:col-span-7 flex flex-col gap-10">
+<!-- Multi-Select Interest Chips -->
+<section class="flex flex-col gap-4">
+<div class="flex items-center justify-between">
+<h2 class="font-headline-sm text-headline-sm text-on-surface flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-base">interests</span>
+              Popular Campus Passions
+            </h2>
+<span class="font-code-affinity text-code-affinity text-on-surface-variant uppercase tracking-wider">3 Selected</span>
+</div>
+<div class="flex flex-wrap gap-2.5" id="interests-pill-group">
+<!-- Selected Pill 1 -->
+<button class="interest-chip group inline-flex items-center gap-2 px-4 py-2 rounded-full font-label-action text-label-action bg-primary text-on-primary shadow-sm hover:opacity-95 transition-all" type="button">
+<span class="material-symbols-outlined text-base">check</span>
+<span>Photography</span>
+</button>
+<!-- Selected Pill 2 -->
+<button class="interest-chip group inline-flex items-center gap-2 px-4 py-2 rounded-full font-label-action text-label-action bg-primary text-on-primary shadow-sm hover:opacity-95 transition-all" type="button">
+<span class="material-symbols-outlined text-base">check</span>
+<span>Content Creation</span>
+</button>
+<!-- Selected Pill 3 -->
+<button class="interest-chip group inline-flex items-center gap-2 px-4 py-2 rounded-full font-label-action text-label-action bg-primary text-on-primary shadow-sm hover:opacity-95 transition-all" type="button">
+<span class="material-symbols-outlined text-base">check</span>
+<span>Travelling</span>
+</button>
+<!-- Unselected Pills -->
+<button class="interest-chip group inline-flex items-center gap-1.5 px-4 py-2 rounded-full font-label-action text-label-action bg-surface-container-lowest text-on-surface-variant hover:bg-surface-container shadow-sm transition-all" type="button">
+<span class="material-symbols-outlined text-base text-outline opacity-70 group-hover:text-primary">code</span>
+<span>Coding &amp; Tech</span>
+</button>
+<button class="interest-chip group inline-flex items-center gap-1.5 px-4 py-2 rounded-full font-label-action text-label-action bg-surface-container-lowest text-on-surface-variant hover:bg-surface-container shadow-sm transition-all" type="button">
+<span class="material-symbols-outlined text-base text-outline opacity-70 group-hover:text-primary">music_note</span>
+<span>Music &amp; Jamming</span>
+</button>
+<button class="interest-chip group inline-flex items-center gap-1.5 px-4 py-2 rounded-full font-label-action text-label-action bg-surface-container-lowest text-on-surface-variant hover:bg-surface-container shadow-sm transition-all" type="button">
+<span class="material-symbols-outlined text-base text-outline opacity-70 group-hover:text-primary">nightlife</span>
+<span>Dance &amp; Choreography</span>
+</button>
+<button class="interest-chip group inline-flex items-center gap-1.5 px-4 py-2 rounded-full font-label-action text-label-action bg-surface-container-lowest text-on-surface-variant hover:bg-surface-container shadow-sm transition-all" type="button">
+<span class="material-symbols-outlined text-base text-outline opacity-70 group-hover:text-primary">fitness_center</span>
+<span>Sports &amp; Fitness</span>
+</button>
+<button class="interest-chip group inline-flex items-center gap-1.5 px-4 py-2 rounded-full font-label-action text-label-action bg-surface-container-lowest text-on-surface-variant hover:bg-surface-container shadow-sm transition-all" type="button">
+<span class="material-symbols-outlined text-base text-outline opacity-70 group-hover:text-primary">sports_esports</span>
+<span>Gaming &amp; Esports</span>
+</button>
+<button class="interest-chip group inline-flex items-center gap-1.5 px-4 py-2 rounded-full font-label-action text-label-action bg-surface-container-lowest text-on-surface-variant hover:bg-surface-container shadow-sm transition-all" type="button">
+<span class="material-symbols-outlined text-base text-outline opacity-70 group-hover:text-primary">rocket_launch</span>
+<span>Entrepreneurship</span>
+</button>
+<button class="interest-chip group inline-flex items-center gap-1.5 px-4 py-2 rounded-full font-label-action text-label-action bg-surface-container-lowest text-on-surface-variant hover:bg-surface-container shadow-sm transition-all" type="button">
+<span class="material-symbols-outlined text-base text-outline opacity-70 group-hover:text-primary">volunteer_activism</span>
+<span>Volunteering &amp; Impact</span>
+</button>
+<button class="interest-chip group inline-flex items-center gap-1.5 px-4 py-2 rounded-full font-label-action text-label-action bg-surface-container-lowest text-on-surface-variant hover:bg-surface-container shadow-sm transition-all" type="button">
+<span class="material-symbols-outlined text-base text-outline opacity-70 group-hover:text-primary">palette</span>
+<span>Art &amp; Illustration</span>
+</button>
+<button class="interest-chip group inline-flex items-center gap-1.5 px-4 py-2 rounded-full font-label-action text-label-action bg-surface-container-lowest text-on-surface-variant hover:bg-surface-container shadow-sm transition-all" type="button">
+<span class="material-symbols-outlined text-base text-outline opacity-70 group-hover:text-primary">record_voice_over</span>
+<span>Public Speaking</span>
+</button>
+<button class="interest-chip group inline-flex items-center gap-1.5 px-4 py-2 rounded-full font-label-action text-label-action bg-surface-container-lowest text-on-surface-variant hover:bg-surface-container shadow-sm transition-all" type="button">
+<span class="material-symbols-outlined text-base text-outline opacity-70 group-hover:text-primary">menu_book</span>
+<span>Reading &amp; Book Club</span>
+</button>
+</div>
+</section>
+<!-- Large Expansive Natural Language Textarea -->
+<section class="flex flex-col gap-3">
+<div class="flex items-center justify-between">
+<label class="font-title-md text-title-md text-on-surface" for="nlp-interest-input">
+              Tell us more about what you enjoy doing in your free time:
+            </label>
+<span class="font-code-affinity text-code-affinity text-on-surface-variant tabular-nums" id="char-counter">
+              184 / 500 characters
+            </span>
+</div>
+<div class="relative bg-surface-container-lowest rounded-2xl shadow-sm p-4 focus-within:shadow-md transition-shadow">
+<textarea class="w-full bg-transparent border-0 outline-none resize-none font-body-md text-body-md text-on-surface placeholder:text-outline" id="nlp-interest-input" maxlength="500" placeholder="E.g., I'm into low-fi music production, exploring hidden coffee spots, and looking for study groups..." rows="5">I love photography (especially street and portrait shots on my Sony A6400), travelling to scenic places, meeting curious new people on campus, and creating short-form cinematic travel videos. I'm hoping to find casual weekend meetups and beginner-friendly creative collaborations.</textarea>
+<div class="pt-3 flex flex-wrap items-center justify-between gap-2">
+<div class="flex items-center gap-2">
+<span class="font-code-affinity text-code-affinity text-on-surface-variant">Try prompts:</span>
+<button class="prompt-chip px-2.5 py-1 rounded-lg bg-surface-container-low text-on-surface-variant hover:bg-surface-container font-code-affinity text-code-affinity transition-colors" type="button">
+                  Weekend jamming?
+                </button>
+<button class="prompt-chip px-2.5 py-1 rounded-lg bg-surface-container-low text-on-surface-variant hover:bg-surface-container font-code-affinity text-code-affinity transition-colors" type="button">
+                  Beginner in coding?
+                </button>
+<button class="prompt-chip px-2.5 py-1 rounded-lg bg-surface-container-low text-on-surface-variant hover:bg-surface-container font-code-affinity text-code-affinity transition-colors" type="button">
+                  Campus photo walks?
+                </button>
+</div>
+<div class="flex items-center gap-1 text-primary">
+<span class="material-symbols-outlined text-sm">mic</span>
+<span class="font-code-affinity text-code-affinity font-semibold">Voice Dictation</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Preference Tuners (Frequency & Vibe) -->
+<section class="grid grid-cols-1 sm:grid-cols-2 gap-6 bg-surface-container-low p-6 rounded-2xl shadow-sm">
+<!-- Frequency -->
+<div class="flex flex-col gap-3">
+<span class="font-title-md text-title-md text-on-surface flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-base">calendar_month</span>
+              Preferred Frequency
+            </span>
+<div class="flex flex-col gap-2">
+<label class="flex items-center justify-between p-3 rounded-xl bg-surface-container-lowest cursor-pointer shadow-sm hover:bg-surface-bright transition-colors">
+<span class="font-label-action text-label-action text-on-surface">Weekend Meetups</span>
+<input checked="" class="w-4 h-4 accent-primary text-primary focus:ring-0" name="frequency" type="radio" value="weekend"/>
+</label>
+<label class="flex items-center justify-between p-3 rounded-xl bg-surface-container-lowest cursor-pointer shadow-sm hover:bg-surface-bright transition-colors">
+<span class="font-label-action text-label-action text-on-surface-variant">Weekly Sessions</span>
+<input class="w-4 h-4 accent-primary text-primary focus:ring-0" name="frequency" type="radio" value="weekly"/>
+</label>
+<label class="flex items-center justify-between p-3 rounded-xl bg-surface-container-lowest cursor-pointer shadow-sm hover:bg-surface-bright transition-colors">
+<span class="font-label-action text-label-action text-on-surface-variant">Flexible / Spontaneous</span>
+<input class="w-4 h-4 accent-primary text-primary focus:ring-0" name="frequency" type="radio" value="flexible"/>
+</label>
+</div>
+</div>
+<!-- Group Vibe -->
+<div class="flex flex-col gap-3">
+<span class="font-title-md text-title-md text-on-surface flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-base">diversity_3</span>
+              Desired Campus Vibe
+            </span>
+<div class="flex flex-col gap-2">
+<label class="flex items-center justify-between p-3 rounded-xl bg-surface-container-lowest cursor-pointer shadow-sm hover:bg-surface-bright transition-colors">
+<span class="font-label-action text-label-action text-on-surface">Collaborative &amp; Social</span>
+<input checked="" class="w-4 h-4 accent-primary text-primary focus:ring-0" name="vibe" type="radio" value="social"/>
+</label>
+<label class="flex items-center justify-between p-3 rounded-xl bg-surface-container-lowest cursor-pointer shadow-sm hover:bg-surface-bright transition-colors">
+<span class="font-label-action text-label-action text-on-surface-variant">Skill &amp; Project Focused</span>
+<input class="w-4 h-4 accent-primary text-primary focus:ring-0" name="vibe" type="radio" value="skill"/>
+</label>
+<label class="flex items-center justify-between p-3 rounded-xl bg-surface-container-lowest cursor-pointer shadow-sm hover:bg-surface-bright transition-colors">
+<span class="font-label-action text-label-action text-on-surface-variant">Chill &amp; Casual</span>
+<input class="w-4 h-4 accent-primary text-primary focus:ring-0" name="vibe" type="radio" value="chill"/>
+</label>
+</div>
+</div>
+</section>
+</div>
+<!-- Right Column: AI Analysis Simulator & Live Matching Hub (5 Columns) -->
+<div class="lg:col-span-5 flex flex-col gap-6">
+<!-- Interactive AI Simulation Card -->
+<div class="bg-surface-container-lowest rounded-3xl p-6 lg:p-8 shadow-md relative overflow-hidden">
+<!-- Subtle Decorative Radiance Glow -->
+<div class="absolute -top-12 -right-12 w-48 h-48 bg-primary opacity-10 rounded-full blur-3xl pointer-events-none"></div>
+<div class="absolute -bottom-12 -left-12 w-48 h-48 bg-secondary opacity-10 rounded-full blur-3xl pointer-events-none"></div>
+<!-- Card Header & Live Score -->
+<div class="flex items-start justify-between gap-4 mb-6 relative">
+<div>
+<div class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-primary-fixed text-on-primary-fixed mb-2">
+<span class="material-symbols-outlined text-xs" style="font-variation-settings: 'FILL' 1;">psychology</span>
+<span class="font-label-tag text-label-tag uppercase tracking-wider font-bold">Neural Discovery Hub</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface">Campus Match Matrix</h3>
+</div>
+<!-- Dynamic Match Radial Indicator -->
+<div class="flex flex-col items-center bg-surface-container-low p-2.5 rounded-2xl shadow-sm">
+<span class="font-display-hero text-headline-md text-primary font-bold tracking-tight">96%</span>
+<span class="font-code-affinity text-code-affinity text-on-surface-variant uppercase">Affinity</span>
+</div>
+</div>
+<!-- Real-Time Processing Visualization Checklist -->
+<div class="flex flex-col gap-4 mb-8 relative">
+<!-- Step 1 Complete -->
+<div class="flex items-center gap-3.5 p-3 rounded-xl bg-surface-container-low transition-all">
+<div class="flex items-center justify-center w-7 h-7 rounded-full bg-primary text-on-primary shadow-sm shrink-0">
+<span class="material-symbols-outlined text-base">check</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-action text-label-action text-on-surface font-semibold">Understanding interests &amp; nuances</span>
+<span class="font-code-affinity text-code-affinity text-on-surface-variant">Detected tone: Enthusiastic, Creator-Oriented</span>
+</div>
+</div>
+<!-- Step 2 Complete -->
+<div class="flex items-center gap-3.5 p-3 rounded-xl bg-surface-container-low transition-all">
+<div class="flex items-center justify-center w-7 h-7 rounded-full bg-primary text-on-primary shadow-sm shrink-0">
+<span class="material-symbols-outlined text-base">check</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-action text-label-action text-on-surface font-semibold">Identifying key core anchors</span>
+<div class="flex items-center gap-1.5 mt-1 flex-wrap">
+<span class="px-2 py-0.5 rounded-md bg-surface-container font-code-affinity text-code-affinity text-primary font-medium">Photography</span>
+<span class="px-2 py-0.5 rounded-md bg-surface-container font-code-affinity text-code-affinity text-primary font-medium">Cinematography</span>
+<span class="px-2 py-0.5 rounded-md bg-surface-container font-code-affinity text-code-affinity text-primary font-medium">Scenic Travel</span>
+</div>
+</div>
+</div>
+<!-- Step 3 Complete -->
+<div class="flex items-center gap-3.5 p-3 rounded-xl bg-surface-container-low transition-all">
+<div class="flex items-center justify-center w-7 h-7 rounded-full bg-primary text-on-primary shadow-sm shrink-0">
+<span class="material-symbols-outlined text-base">check</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-action text-label-action text-on-surface font-semibold">Finding relevant campus communities</span>
+<span class="font-code-affinity text-code-affinity text-primary font-bold">3 High-Match Clubs Unlocked</span>
+</div>
+</div>
+<!-- Step 4 Complete -->
+<div class="flex items-center gap-3.5 p-3 rounded-xl bg-surface-container-low transition-all">
+<div class="flex items-center justify-center w-7 h-7 rounded-full bg-primary text-on-primary shadow-sm shrink-0">
+<span class="material-symbols-outlined text-base">check</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-action text-label-action text-on-surface font-semibold">Matching upcoming campus events</span>
+<span class="font-code-affinity text-code-affinity text-on-surface-variant">5 calendar meetups aligning with weekends</span>
+</div>
+</div>
+<!-- Step 5 Active/Simulated -->
+<div class="flex items-center gap-3.5 p-3 rounded-xl bg-surface-container-high transition-all">
+<div class="flex items-center justify-center w-7 h-7 rounded-full bg-secondary text-on-secondary shadow-sm shrink-0 animate-pulse">
+<span class="material-symbols-outlined text-base" style="font-variation-settings: 'FILL' 1;">auto_awesome</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-action text-label-action text-on-surface font-semibold">Synthesizing personalized icebreakers</span>
+<span class="font-code-affinity text-code-affinity text-secondary font-medium">Drafted 2 contextual openers ready</span>
+</div>
+</div>
+</div>
+<!-- Action CTA Button -->
+<button class="w-full py-4 px-6 rounded-2xl bg-primary text-on-primary font-headline-sm text-headline-sm hover:opacity-95 shadow-md flex items-center justify-center gap-3 transition-transform active:scale-[0.99]" type="button">
+<span>Discover My Communities (3 Ready)</span>
+<span class="material-symbols-outlined text-xl" style="font-variation-settings: 'FILL' 1;">stars</span>
+</button>
+<div class="mt-4 flex items-center justify-center gap-2 text-on-surface-variant font-code-affinity text-code-affinity">
+<span class="material-symbols-outlined text-xs">lock</span>
+<span>Your preferences remain fully private until matched</span>
+</div>
+</div>
+<!-- Matched Community Sneak Peek Banner -->
+<div class="bg-surface-container-lowest rounded-2xl p-4 shadow-sm flex items-center gap-4">
+<div class="w-14 h-14 rounded-xl overflow-hidden shrink-0 shadow-sm">
+<img class="w-full h-full object-cover" data-alt="Close up photograph of diverse university students holding mirrorless cameras and lenses during a golden hour campus photo walk, natural warm lighting, editorial college lifestyle" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA-8epxyabKF--Of0Rslf23WBL3x76nEsrvsumx5piw1Y_cbGP0b_vHBPnyzviWsGaBQcV-8Z43IiOFVu0TZSQslH4Pl9anV52fiMfCjgn6w9JzdK4BWa3HPUnZBBzWGyvzj6AMbpmLnLNN894KFKQCyPLE7_dS0OltegnoZSYic022PqsvVIOUSZwzrnlJklnqtj31H3poigAPJH7wsYa_AEkFEHQBEC-mqAwkbQ1-7QiAcxKOrdJ5"/>
+</div>
+<div class="flex flex-col min-w-0 flex-1">
+<div class="flex items-center gap-2">
+<span class="font-title-md text-title-md text-on-surface truncate">Aatmoday Lens &amp; Motion Club</span>
+<span class="px-2 py-0.5 rounded-full bg-secondary-fixed text-on-secondary-fixed-variant font-label-tag text-label-tag font-bold shrink-0">98% Fit</span>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant truncate">48 active members • Next meet: Saturday @ Arts Quad</span>
+</div>
+<span class="material-symbols-outlined text-outline">chevron_right</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script>
+  // Dynamic Character Counter & Prompt Injection Handler
+  (function() {
+    const textarea = document.getElementById('nlp-interest-input');
+    const counter = document.getElementById('char-counter');
+    const promptChips = document.querySelectorAll('.prompt-chip');
+
+    if (textarea && counter) {
+      textarea.addEventListener('input', function() {
+        counter.textContent = `${this.value.length} / 500 characters`;
+      });
+    }
+
+    if (promptChips && textarea) {
+      promptChips.forEach(chip => {
+        chip.addEventListener('click', function() {
+          const textToAppend = " " + this.textContent.trim();
+          if ((textarea.value.length + textToAppend.length) <= 500) {
+            textarea.value += textToAppend;
+            if (counter) {
+              counter.textContent = `${textarea.value.length} / 500 characters`;
+            }
+          }
+        });
+      });
+    }
+
+    // Toggle Multi-select Interests
+    const interestChips = document.querySelectorAll('#interests-pill-group .interest-chip');
+    interestChips.forEach(chip => {
+      chip.addEventListener('click', function() {
+        const isSelected = this.classList.contains('bg-primary');
+        if (isSelected) {
+          this.classList.remove('bg-primary', 'text-on-primary');
+          this.classList.add('bg-surface-container-lowest', 'text-on-surface-variant');
+          const icon = this.querySelector('.material-symbols-outlined');
+          if (icon && icon.textContent.trim() === 'check') {
+            icon.textContent = 'add';
+            icon.classList.add('text-outline', 'opacity-70');
+          }
+        } else {
+          this.classList.remove('bg-surface-container-lowest', 'text-on-surface-variant');
+          this.classList.add('bg-primary', 'text-on-primary');
+          const icon = this.querySelector('.material-symbols-outlined');
+          if (icon) {
+            icon.textContent = 'check';
+            icon.classList.remove('text-outline', 'opacity-70');
+          }
+        }
+      });
+    });
+  })();
+</script></main></body></html>
