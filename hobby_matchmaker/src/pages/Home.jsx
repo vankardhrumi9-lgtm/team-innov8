@@ -1,3 +1,3 @@
 export default function Home() {
-  return <iframe className="stitch-screen" title="Aatmoday home discovery" src="/screens/home.html" />;
+  return <iframe className="screen-frame" title="Aatmoday home discovery" src="/screens/home.html" />;
 }

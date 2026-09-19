@@ -1,11 +1,11 @@
 # Aatmoday Hobby Matchmaker
 
-A simple React + Vite shell for the Stitch-generated Aatmoday Hobby Matchmaker screens.
+A polished React + Vite experience for the Aatmoday Hobby Matchmaker product.
 
 ## Structure
 
 - `public/images/`: static brand assets
-- `public/screens/`: complete Stitch HTML exports
+- `public/screens/`: HTML screen exports used within the app shell
 - `src/components/`: reusable UI pieces
 - `src/layouts/`: shared page wrappers
 - `src/pages/`: screen-level views
@@ -20,4 +20,4 @@ npm run dev
 
 Then open the local URL printed by Vite.
 
-The structured shell includes Home, Discover, Community, Events, and My Match navigation. Events reuses the preserved community detail export, while My Match reuses the preserved interest matching export because the original Stitch archive did not contain separate Event or My Match HTML screens.
+The app keeps the original navigation and screen flow while refining the product presentation and polish for demo use.

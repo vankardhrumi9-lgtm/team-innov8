@@ -12,7 +12,11 @@ export default function Navbar({ activePage, onNavigate }) {
   return (
     <header className="navbar">
       <button className="brand" onClick={() => onNavigate('home')} aria-label="Go to home">
-        <img src="/images/logo.svg" alt="Aatmoday Hobby Matchmaker" />
+        <span className="brand-mark" aria-hidden="true">
+          ✦
+        </span>
+        <span className="brand-text">Aatmoday</span>
+        <span className="brand-pill">match</span>
       </button>
       <nav aria-label="Main navigation">
         {links.map((link) => (

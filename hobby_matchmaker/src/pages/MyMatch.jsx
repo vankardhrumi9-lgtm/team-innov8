@@ -1,3 +1,3 @@
 export default function MyMatch() {
-  return <iframe className="stitch-screen" title="My Aatmoday matches" src="/screens/discover.html" />;
+  return <iframe className="screen-frame" title="My Aatmoday matches" src="/screens/discover.html" />;
 }
