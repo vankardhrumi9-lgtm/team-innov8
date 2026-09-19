@@ -16,7 +16,12 @@ export default function Navbar({ activePage, onNavigate }) {
       </button>
       <nav aria-label="Main navigation">
         {links.map((link) => (
-          <Button key={link.id} active={activePage === link.id} onClick={() => onNavigate(link.id)}>
+          <Button
+            key={link.id}
+            active={activePage === link.id}
+            featured={link.id === 'my-match'}
+            onClick={() => onNavigate(link.id)}
+          >
             {link.label}
           </Button>
         ))}
